@@ -1,0 +1,22 @@
+body {
+  font-family: $font-primary;
+}
+
+#{headings()} {
+  font-family: $font-primary;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 130%;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 3px solid;
+  color: white;
+  &:hover {
+    color: $orange;
+  }
+}
+
+
