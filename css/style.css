@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,900,400italic,900italic);
-/* line 5, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,87 +20,85 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.0.alpha.20/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
-/* line 1, ../components/sass/_base.scss */
+/* line 1, ../_/components/sass/_base.scss */
 body {
   font-family: Playfair Display, serif; }
 
-/* line 5, ../components/sass/_base.scss */
+/* line 5, ../_/components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: Playfair Display, serif;
   font-weight: 400;
   font-size: 4rem;
   line-height: 130%; }
 
-/* line 12, ../components/sass/_base.scss */
+/* line 12, ../_/components/sass/_base.scss */
 a {
   text-decoration: none;
   padding-bottom: 2px;
   border-bottom: 3px solid;
   color: white; }
-  /* line 17, ../components/sass/_base.scss */
+  /* line 17, ../_/components/sass/_base.scss */
   a:hover {
-    color: #bd3613; }
+    color: #a57706; }
 
-/* line 4, ../components/sass/_layout.scss */
+/* line 4, ../_/components/sass/_layout.scss */
 html {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 23, ../components/sass/_layout.scss */
+/* line 22, ../_/components/sass/_layout.scss */
 .layout {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto; }
-  /* line 12, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+  /* line 12, ../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
   .layout:after {
     content: " ";
     display: block;
     clear: both; }
 
-/* line 3, ../components/sass/_modules.scss */
+/* line 3, ../_/components/sass/_modules.scss */
 #main_text {
   display: block;
   position: absolute;
   bottom: 0;
   color: white;
   padding: 0 30% 40px 40px; }
-
-  
